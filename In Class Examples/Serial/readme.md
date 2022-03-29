@@ -142,11 +142,11 @@ If you already uploaded the Arduino code, and set the DATs up correctly, your DA
 
 Once the sensor data is coming in reliably we can connect the output of our `serial` DAT to the input of a `convert` DAT and use the `convert` to separate the values.
 
-![Serial To Convert](./imgs/serialtoconvert.png?raw=true "Serial to Convert")
+![Serial To Convert](./imgs/serialtoConvert.png?raw=true "Serial to Convert")
 
 The `convert` parameters define how you will reformat the incoming values.  Make sure that you are converting to a table, this will take values and split them into individual cells.  Input a comma ',' in the `split cells at` field to define which delimiters you are using in between values.  You do not need to input '\n', the `serial` DAT takes care of the ending control character.
 
-![Serial To Convert](./imgs/convertsettings.png?raw=true "Serial to Convert")
+![Serial To Convert](./imgs/convertSettings.png?raw=true "Convert Settings")
 
 Once we have the values separated, the output of your `convert` to a `DAT to` CHOP. This will turn the split DAT values into a channel (CHOP) format.  Once you have values in a CHOP you can then export and connect as we have in other examples.
 
