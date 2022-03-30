@@ -107,7 +107,8 @@ The ```CHOP Execute``` DAT is designed to trigger specific functions whenever th
 
 For this case we will only use ```Off to On```.  
 
-Make sure the ```Off to On``` parameter is enabled.  
+Make sure the ```Off to On``` parameter is enabled.
+Also make sure the `CHOPs` field refers back to the name of the null that your button is connected to, otherwise it won't know what component should be controlling the communication.
 
 ![Serial Communication Network](https://github.com/RiosITP/DILP2022/blob/main/In%20Class%20Examples/Serial/imgs/chopExecSettings.png?raw=true "ChopExecute Script")
 
@@ -153,4 +154,16 @@ The `convert` parameters define how you will reformat the incoming values.  Make
 
 Once we have the values separated, the output of your `convert` to a `DAT to` CHOP. This will turn the split DAT values into a channel (CHOP) format.  Once you have values in a CHOP you can then export and connect as we have in other examples.
 
+![Serial To Convert](./imgs/datto.png?raw=true "dat to CHOP")
+
+In order to properly sort the information from the `convert` chop, configure the `datto` CHOP parameters as follows:
+- `Select Rows` : by Index
+- `Select Cols` : by Index
+- `Start Col Index` : 0
+- `End Col Index` : 2  <-- (if you have a different amount of sensors use the last index of what you actually have)
+- 'Output' : Channel per Column
+- `First Row is` : Values
+- `First Column is`: Values
+
+![Serial To Convert](./imgs/dattodetail.png?raw=true "Convert Settings")
 
