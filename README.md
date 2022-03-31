@@ -14,7 +14,7 @@ https://nyu.zoom.us/rec/share/w5SIj-nEW6VK2nIrfh0FIxG51okvKTXxuTfNhrwHs9MWx-IlYx
 ## From Class 03-30-2022
 Covering: Arduino Serial Communication to TouchDesigner using Serial DAT, Convert DAT, and some python scripting
 
-We exported many CHOPS and used Math to map different values to different parameters. We moved a circle with the mouse, noise, and patterns and got an intro into Compositing
+We used Call and Response Serial communication to send multiple sensor values to TouchDesigner and move a circle aroud the screen
 
 **Zoom Recording (Requires NYU Authentication):**
 https://nyu.zoom.us/rec/share/-JIh51mppzl3-HKukaqg-HM3R4_iIcK4uaLaKAKhZDT_b8nDqqcJuIFTS_2cAc6i.ZsE6FiP0tocINYsI
