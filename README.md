@@ -17,6 +17,7 @@ Covering: Arduino Serial Communication to TouchDesigner using Serial DAT, Conver
 We used Call and Response Serial communication to send multiple sensor values to TouchDesigner and move a circle aroud the screen
 
 **Zoom Recording (Requires NYU Authentication):**
+
 https://nyu.zoom.us/rec/share/-JIh51mppzl3-HKukaqg-HM3R4_iIcK4uaLaKAKhZDT_b8nDqqcJuIFTS_2cAc6i.ZsE6FiP0tocINYsI
 
 
