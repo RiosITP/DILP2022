@@ -24,6 +24,6 @@ void loop() {
     Serial.print(digitalRead(b2));
     Serial.print(",");
     Serial.print(digitalRead(b3));
-    Serial.print("\n");
+    Serial.print('\n');
   }
 }
