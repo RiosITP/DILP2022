@@ -1,6 +1,14 @@
 # Designing Interfaces for Live Performance 2022
 Examples from Designing Interfaces for Live Performance Class IMA NYU 2022
 
+## From Class 04-04-2022
+
+Covering: Serial with buttons, Simple Audio Visualization, Feedback, Ramp, and Remap TOPS
+
+**Zoom Recording (Requires NYU Authentication):**
+
+https://nyu.zoom.us/rec/share/ZMh2w2acI_JOqQiPKfLe4PvNTnTjgq6wrs8hLlLF0vb_i5muc4QrR0_dOrtp87Cs.CmkpTMejT3mjmPZq
+
 ## From Class 03-23-2022
 
 Covering: CHOP Exports, Noise, Panel, Pattern, Math, Feedback, and, Composite
