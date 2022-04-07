@@ -1,6 +1,14 @@
 # Designing Interfaces for Live Performance 2022
 Examples from Designing Interfaces for Live Performance Class IMA NYU 2022
 
+## From Class 04-06-2022
+
+Covering: MIDI to communicate between Touchdesigner, Ableton, and Arduino with buttons. Also more 2d effects with Camera input, Feedback, Edge, Ramp, and Remap TOPS
+
+**Zoom Recording (Requires NYU Authentication):**
+
+https://nyu.zoom.us/rec/share/cNF4YXK9jZC-bGkjfvIt0Iw1J2sJGvDBR6pa8kGrjRzb0gxrGWDfFcwMH9cTfx03.FUSBR1ZBZmhfAuAL
+
 ## From Class 04-04-2022
 
 Covering: Serial with buttons, Simple Audio Visualization, Feedback, Ramp, and Remap TOPS
